@@ -1,0 +1,139 @@
+*
+{margin: 0;
+padding: 0;}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*:focus {
+    outline: none;
+  }
+
+
+  /* navbar */
+
+  body {
+    background-image: url(../img/bcg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .title{
+    display: flex;
+    text-align: left;
+    padding-left: 90px;
+    
+    }
+  
+  .navbar{display: flex;}
+
+  .navbar_text {
+    display: flex;
+    list-style: none;
+    padding-left: 80px;
+    margin-top: 40px;
+  }
+  
+  .navbar_text {
+    margin-right: 20px;
+  }
+
+  .first-title{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    }
+
+    .second-title{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #E8441A;
+    margin-top: 40px;
+    }
+
+    .navbar_subtitle{
+        font-family: 'Righteous';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 60px;
+        color: #FFFFFF;
+        padding-left: 220px;
+        cursor: pointer;
+        
+        }
+
+        .navbar_button {
+            font-family: 'Righteous';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 45px;
+            color: #FFFFFF;
+            width: 180px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: #E8441A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 280px;
+            margin-top: 50px;
+            cursor: pointer;
+        }
+         /* header */
+.header_title{
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 89px;
+color: #FFFFFF;
+padding-left: 80px;
+padding-top: 130px;
+ }
+
+.header_subtitle{
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+color: #FFFFFF;
+padding-left: 80px;
+padding-top: 20px;
+
+          }
+
+
+       
+
+
+        @media only screen and (max-width: 1280px){
+          /* navbar */
+            .navbar_subtitle{
+                padding-left: 130px;
+            }
+            .navbar_text{padding-left: 16px;}
+
+            .navbar_button{margin-left: 65px;}
+
+        }
+
+
+        @media only screen and (max-width: 640px){
+          /* navbar */
+          .title{padding-left: 25px;}
+          .navbar_subtitle{padding-left: 45px;}
+          
+        }
+            
